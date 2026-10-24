@@ -1,20 +1,18 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Tides of Time: Al Jumail Revitalization
 
-# Run and deploy your AI Studio app
+An interactive website presenting a proposal to revitalize Al Jumail, an abandoned 18th and 19th century pearling and fishing village in northern Qatar, as a living heritage site.
 
-This contains everything you need to run your app locally.
+Instead of treating the village as static ruins, the proposal turns it into a guided story route: visitors move house by house through themed zones on fishing, pearling, family life, and the mosque, and learn through hands-on activities and storytelling. The design approach is preserve, adapt, participate: stabilize the coral-stone structures, reuse selected spaces with minimal and reversible intervention, and avoid rebuilding a "new old village".
 
-View your app in AI Studio: https://ai.studio/apps/9cffe2c2-bbd2-4f71-9dc8-e299c827777f
+Live site: [tides-of-time-al-jumail-revitalizat.vercel.app](https://tides-of-time-al-jumail-revitalizat.vercel.app)
 
-## Run Locally
+## Stack
 
-**Prerequisites:**  Node.js
+React 19, TypeScript, Vite, Tailwind CSS, Motion. Deployed on Vercel.
 
+## Run locally
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```bash
+npm install
+npm run dev
+```
